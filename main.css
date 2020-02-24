@@ -28,7 +28,7 @@ body {
 .phone {
   margin: 5rem 0;
   width: 35rem;
-  box-shadow: 0 0 9rem 1rem #576574;
+  box-shadow: 0 0 6rem 1rem #576574;
   background-color: black;
   border-radius: 20px;
 }
@@ -48,12 +48,31 @@ body {
   overflow: hidden;
 }
 
-.app__phone-icons {
-  
+.app__phone-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.5rem;
+}
+
+.app__phone-icons > img {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+.app__phone-icons > img:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.app__phone-time {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  text-align: center;
 }
 
 .app__heading {
   position: relative;
+  display: flex;
+  justify-content: space-between;
   padding: 1rem;
   border-bottom: 1px solid black;
   background-color: #3e2f42;
