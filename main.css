@@ -40,20 +40,36 @@ body {
 }
 
 .app {
+  display: flex;
+  flex-direction: column;
   color: #fff;
+  background-color: #252531;
+  height: 100%;
+  overflow: hidden;
 }
 
 .app__heading {
+  position: relative;
   font-family: 'Trade Winds';
   font-size: 2.25rem;
   padding: 1rem;
   border-bottom: 1px solid black;
-  box-shadow: 0 2px 3px black;
-  background-color: #2b1925;
+  background-color: #3e2f42;
+}
+
+.app__heading::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 2px;
+  height: 100%;
+  width: 1rem;
+  background-color: #f3f147;
+  box-shadow: 2rem 0px 5.5rem 0.6rem #f3f147;
 }
 
 .app__tab-area {
-  background-color: #341c2c;
+  background-color: #4c3049;
 }
 
 .app__tab-list {
@@ -67,4 +83,30 @@ body {
   border-top: 3px solid #f74263;
   color: #f74263;
   font-weight: 700;
+}
+
+.app__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.profile {
+  background-color: #f84558;
+  margin: 2rem;
+  height: 30rem;
+  width: 25rem;
+  border-radius: 10px;
+}
+
+.profile__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.profile__header span {
+  font-weight: 300;
 }
