@@ -25,9 +25,8 @@ body {
 }
 
 .phone {
-  margin-top: 5rem;
+  margin: 5rem 0;
   width: 35rem;
-  height: 55rem;
   box-shadow: 0 0 9rem 1rem #576574;
   background-color: black;
   border-radius: 20px;
@@ -90,12 +89,16 @@ body {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  background-image: linear-gradient(
+    to bottom,
+    #252531,
+    rgba(236, 16, 152, 0.191)
+  );
 }
 
 .profile {
   background-color: #f84558;
   margin: 2rem;
-  height: 30rem;
   width: 25rem;
   border-radius: 10px;
 }
@@ -104,11 +107,12 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .profile__header span {
   font-weight: 300;
+  font-size: 1.5rem;
 }
 
 .profile__figure {
@@ -126,7 +130,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 20rem;
+  height: 25rem;
 }
 
 .profile__caption {
@@ -136,4 +140,22 @@ body {
   width: 100%;
   text-align: center;
   text-shadow: 0 1px 0 black;
+}
+
+.profile__controls ul {
+  font-size: 3rem;
+  font-weight: 700;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.phone__navigation > ul {
+  font-size: 3rem;
+  background-color: #20131D;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color: #fff;
 }
