@@ -103,6 +103,7 @@ body {
   list-style: none;
   font-size: 3rem;
   justify-content: space-around;
+  align-items: center;
 }
 
 .app__tab-list li:nth-child(2) {
@@ -175,6 +176,7 @@ body {
   list-style: none;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .phone__navigation > ul {
