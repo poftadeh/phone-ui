@@ -13,6 +13,7 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-image: url(./images/dark-room.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,7 +37,6 @@ body {
 .phone__screen {
   background-color: white;
   margin: 2rem;
-  height: 50rem;
 }
 
 .app {
@@ -185,4 +185,34 @@ body {
   align-items: center;
   list-style: none;
   color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 11px;
+  }
 }
