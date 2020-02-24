@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url(dark-room.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone {
+  margin-top: 5rem;
+  width: 35rem;
+  height: 55rem;
+  box-shadow: 0 0 9rem 1rem #576574;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.phone__screen {
+  background-color: white;
+  margin: 2rem;
+  height: 50rem;
+}
+
+.app {
+  color: #fff;
+}
+
+.app__heading {
+  font-family: 'Trade Winds';
+  font-size: 2.25rem;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  box-shadow: 0 2px 3px black;
+  background-color: #2b1925;
+}
+
+.app__tab-area {
+  background-color: #341c2c;
+}
+
+.app__tab-list {
+  display: flex;
+  list-style: none;
+  font-size: 3rem;
+  justify-content: space-around;
+}
+
+.app__tab-list li:last-child {
+  border-top: 3px solid #f74263;
+  color: #f74263;
+  font-weight: 700;
+}
