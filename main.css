@@ -189,32 +189,32 @@ body {
   color: #fff;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   html {
     font-size: 8px;
   }
 }
 
-@media only screen and (min-width: 600px) {
-  html {
-    font-size: 8.5px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
   html {
     font-size: 9px;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   html {
     font-size: 10px;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
   html {
     font-size: 11px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 14px;
   }
 }
