@@ -78,7 +78,7 @@ body {
   justify-content: space-around;
 }
 
-.app__tab-list li:last-child {
+.app__tab-list li:nth-child(2) {
   border-top: 3px solid #f74263;
   color: #f74263;
   font-weight: 700;
