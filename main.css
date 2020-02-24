@@ -87,11 +87,11 @@ body {
   content: '';
   position: absolute;
   top: 0;
-  right: 2px;
+  right: 0;
   height: 100%;
   width: 1rem;
   background-color: #f3f147;
-  box-shadow: 2rem 0px 5.5rem 0.6rem #f3f147;
+  box-shadow: 2rem 0px 5.5rem 1rem #f3f147;
 }
 
 .app__tab-area {
